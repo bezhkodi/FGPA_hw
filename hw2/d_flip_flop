@@ -7,5 +7,5 @@ module d_flip_flop
 );
 wire s0;
 d_latch d_latch(.d(d), .e(e), .q(s0), .q_n());
-d_latch (.d(s0), .e(e), .q(q), .q_n(q_n));
+d_latch в_дфеср(.d(s0), .e(e), .q(q), .q_n(q_n));
 endmodule
