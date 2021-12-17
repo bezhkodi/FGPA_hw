@@ -1,4 +1,4 @@
-module d-flip-flop
+module d_flip_flop
 (
     input wire d,
     input wire e,
