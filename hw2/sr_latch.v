@@ -1,7 +1,7 @@
 module sr_latch
   (
-    input s
-    input r
+    input s,
+    input r,
     output q,
     output q_n
   );
