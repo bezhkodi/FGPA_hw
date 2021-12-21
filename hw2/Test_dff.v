@@ -1,4 +1,4 @@
-module TestDFF;
+module test_dff;
 	reg clock = 0;
 	reg d = 0;
 	wire q;
@@ -6,7 +6,7 @@ module TestDFF;
 	always #10 clock <= ~clock;
 	d_flip_flop d_flip_flop(.d(d), .e(clock), .q(q), .q_n(q_n));
 	initial begin
-		$dumpvars(0, TestDFF);
+		$dumpvars(0, test_dff);
 		d = 0;
 		#10; d = 1;
 		#10; d = 0;
